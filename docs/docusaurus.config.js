@@ -224,6 +224,20 @@ const config = {
         rehypePlugins,
       },
     ],
+    // Core Developer docs - internal contributor reference (no versioning)
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "core-developer",
+        path: "core_developer_docs",
+        routeBasePath: "internals",
+        sidebarPath: "./sidebars-core-developer.js",
+        editUrl:
+          "https://github.com/AztecProtocol/aztec-packages/tree/master/docs",
+        remarkPlugins,
+        rehypePlugins,
+      },
+    ],
     [
       "docusaurus-plugin-llms",
       {
@@ -312,6 +326,14 @@ const config = {
             docsPluginId: "participate",
             position: "left",
             label: "Participate",
+          },
+          // Core Internals - contributor reference docs
+          {
+            type: "docSidebar",
+            sidebarId: "coreDeveloper",
+            docsPluginId: "core-developer",
+            position: "left",
+            label: "Core Internals",
           },
           // Unified version dropdown - shows context-aware versions based on current section
           {
