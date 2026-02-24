@@ -1,7 +1,7 @@
 ---
 title: Rollup Circuits
 description: The eight rollup circuit types (TX Base, TX Merge, Block Root, Parity, Checkpoint Root, Epoch Root) that aggregate transaction proofs into a single epoch proof for L1 verification, plus SpongeBlob data availability binding.
-sidebar_position: 4
+sidebar_position: 6
 tags: [internals, rollup-circuits, tx-base, epoch-root, spong-blob, parity]
 ---
 

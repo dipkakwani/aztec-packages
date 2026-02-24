@@ -1,7 +1,7 @@
 ---
 title: Gas and Data Availability Economics
 description: Aztec's two-dimensional gas model (L2 Gas + DA Gas), how Mana ties them together, EIP-4844 blob pricing for data availability, and the economics of private vs public transactions.
-sidebar_position: 9
+sidebar_position: 11
 tags: [internals, gas, da-gas, mana, eip-4844, blobs, economics]
 ---
 

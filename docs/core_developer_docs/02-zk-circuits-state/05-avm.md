@@ -1,7 +1,7 @@
 ---
 title: The Aztec Virtual Machine (AVM)
 description: AVM execution model, two-dimensional gas metering (L2 gas + DA gas), the 77-opcode instruction set, how side effects feed into the TX Base rollup, and the AVM proving system.
-sidebar_position: 5
+sidebar_position: 7
 tags: [internals, avm, public-execution, opcodes, gas]
 ---
 

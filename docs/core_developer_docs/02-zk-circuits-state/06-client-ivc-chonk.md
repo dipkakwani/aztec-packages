@@ -1,7 +1,7 @@
 ---
 title: Client IVC & Chonk
 description: How Chonk (Client Highly Optimized ploNK) uses HyperNova folding to chain kernel circuits without paying PCS verification cost at each step, enabling 10-30s client-side proving.
-sidebar_position: 6
+sidebar_position: 8
 tags: [internals, chonk, ivc, hypernova, folding, barretenberg]
 ---
 

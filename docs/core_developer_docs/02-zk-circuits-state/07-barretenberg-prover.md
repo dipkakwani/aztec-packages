@@ -1,7 +1,7 @@
 ---
 title: Barretenberg Prover Internals
 description: How the C++ Barretenberg library generates ZK proofs — the Oink commitment phase, multivariate Sumcheck IOP, and the Gemini→Shplemini→KZG polynomial commitment stack, with the Fiat-Shamir transcript threading it all together.
-sidebar_position: 7
+sidebar_position: 9
 tags: [internals, barretenberg, honk, sumcheck, kzg, gemini, pcs, proving, cpp]
 ---
 

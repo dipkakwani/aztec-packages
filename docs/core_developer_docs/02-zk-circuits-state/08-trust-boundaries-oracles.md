@@ -1,7 +1,7 @@
 ---
 title: Trust Boundaries and Oracle Security
 description: What the ZK proof actually guarantees vs what requires trusting the PXE, how oracle data cannot forge valid proofs, and the librarian model for understanding the oracle trust boundary.
-sidebar_position: 8
+sidebar_position: 10
 tags: [internals, trust-model, oracles, security, pxe, cryptographic-boundary]
 ---
 

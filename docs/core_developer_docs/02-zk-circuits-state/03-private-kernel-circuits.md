@@ -1,7 +1,7 @@
 ---
 title: Private Kernel Circuits
 description: The full private kernel circuit chain — Init, Inner, Reset, Tail, and Hiding — including VK tree validation, Databus data passing, Reset variants, and the Chonk IVC folding system.
-sidebar_position: 3
+sidebar_position: 5
 tags: [internals, kernel-circuits, noir, chonk, databus, vk-tree]
 ---
 
