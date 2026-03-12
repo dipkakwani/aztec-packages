@@ -145,6 +145,11 @@ export abstract class BaseWallet implements Wallet {
     );
   }
 
+  /** Returns the underlying PXE instance for direct access. */
+  public getPXE(): PXE {
+    return this.pxe;
+  }
+
   public async createAuthWit(
     from: AztecAddress,
     messageHashOrIntent: IntentInnerHash | CallIntent,
