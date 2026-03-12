@@ -94,6 +94,13 @@ export abstract class BaseWallet implements Wallet {
     protected log = createLogger('wallet-sdk:base_wallet'),
   ) {}
 
+  /**
+   * Returns the underlying PXE instance for direct access.
+   */
+  public getPXE(): PXE {
+    return this.pxe;
+  }
+
   protected scopesFrom(from: AztecAddress, additionalScopes: AztecAddress[] = []): AztecAddress[] {
     const allScopes = from.isZero() ? additionalScopes : [from, ...additionalScopes];
     const scopeSet = new Set(allScopes.map(address => address.toString()));
